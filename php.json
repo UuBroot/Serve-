@@ -1,0 +1,11 @@
+{
+	"name": "php",
+	"version": 1,
+	"image": "docker.io/library/php:7.4-apache",
+	"port": "8000:80",
+	"usesPath": true,
+	"internalPath": "/var/www/html",
+	"xargs": "--privileged=true",
+	"exec": "",
+	"dependensies": []
+}

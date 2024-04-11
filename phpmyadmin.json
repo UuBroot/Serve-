@@ -1,0 +1,11 @@
+{
+	"name": "phpmyadmin",
+	"version": 1,
+	"image": "docker.io/phpmyadmin/phpmyadmin",
+	"port": "8001:80",
+	"usesPath": false,
+	"internalPath": "",
+	"xargs": "-e PMA_HOST=serve-mariadb -e PMA_USER=root -e PMA_PASSWORD= ",
+	"exec": "",
+	"dependensies": ["mariadb"]
+}
