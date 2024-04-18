@@ -6,6 +6,5 @@
 	"usesPath": true,
 	"internalPath": "/var/www/html",
 	"xargs": "--privileged=true",
-	"exec": "",
-	"dependensies": []
+	"exec": ""
 }

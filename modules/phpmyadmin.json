@@ -6,6 +6,5 @@
 	"usesPath": false,
 	"internalPath": "",
 	"xargs": "-e PMA_HOST=serve-mariadb -e PMA_USER=root -e PMA_PASSWORD= ",
-	"exec": "",
-	"dependensies": ["mariadb"]
+	"exec": ""
 }
