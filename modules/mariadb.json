@@ -6,5 +6,6 @@
 	"usesPath": false,
 	"internalPath": "",
 	"xargs": "-e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_ROOT_PASSWORD=",
-	"exec": ""
+	"exec": "",
+	"changablePort": false
 }
