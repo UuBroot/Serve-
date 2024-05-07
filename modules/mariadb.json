@@ -2,7 +2,7 @@
 	"name": "mariadb",
 	"version": 1,
 	"image": "docker.io/library/mariadb",
-	"port": "3306:3306",
+	"port": "3307:3307",
 	"usesPath": false,
 	"internalPath": "",
 	"xargs": "-e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_ROOT_PASSWORD=",
